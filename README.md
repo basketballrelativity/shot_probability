@@ -23,16 +23,16 @@ The shot probability for a jump shot decreases gradually as the shot distance in
 
 ![](hooks.png)
 
-The shot probability for a hook shot 
+The shot probability for a hook shot is very high close to the rim and remains so for a reasonable distance from the basket. The arc of shot probability here is a semicircle with a radius of 10 feet.
 
 ### Layups
 
 ![](layups.png)
 
-The shot probability for a layup
+The shot probability for a layup decreases very quickly beyond the immediate vicinity of the basket.
 
 ### Dunks
 
 ![](dunks.png)
 
-The shot probability for a dunk
+The shot probability for a dunk is quite high, which agrees with intuition.
