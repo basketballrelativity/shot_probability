@@ -5,6 +5,8 @@ Building a shot probability model from NBA shot chart data
 
 This repo contains a notebook (`shot_probability.ipynb`) that explores the `shotchartdetail` endpoint of the [stats.nba.com](https://stats.nba.com) API. With the `Player` class of the `py_ball` package, a shot probability random forest model is built, tested, and evaluated.
 
+The shot probability model only considers features that describe the location and type of shot. There is no player skill or game state information contained in the model.
+
 ## Results
 
 The image below show two shots from the test set, one with a 97% make probability and the other with a 5% make probability. The high probability shot is a dunk at the rim, while the low probability shot is a halfcourt heave.
