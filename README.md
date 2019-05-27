@@ -1,5 +1,5 @@
 # shot_probability
-Building a shot probability model from NBA shot chart data
+Building a shot probability model from WNBA and NBA shot chart data
 
 ## Description
 
@@ -7,7 +7,7 @@ This repo contains a notebook (`shot_probability.ipynb`) that explores the `shot
 
 The shot probability model only considers features that describe the location and type of shot. There is no player skill or game state information contained in the model.
 
-## Results
+## NBA Results
 
 The image below show two shots from the test set, one with a 97% make probability and the other with a 5% make probability. The high probability shot is a dunk at the rim, while the low probability shot is a halfcourt heave.
 
@@ -38,3 +38,18 @@ The shot probability for a layup decreases very quickly beyond the immediate vic
 ![](images/dunks.png)
 
 The shot probability for a dunk is quite high, which agrees with intuition.
+
+## WNBA Results
+
+### Jump Shots
+
+![](images/wnba_jumps.png)
+
+The shot probability map looks very similar to the NBA one, with a gradual decrease in shot probability followed by a large drop far from the three-point line.
+
+### Layups
+
+![](images/wnba_layups.png)
+
+Layups are very high probability shots immediately around the basket, but otherwise are similar to close jump shots.
+
